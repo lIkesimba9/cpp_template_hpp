@@ -1,0 +1,8 @@
+project(template_hpp)
+cmake_minimum_required(VERSION 3.16.0)
+
+
+file(GLOB INCLUDE_DIRS ${CMAKE_CURRENT_SOURCE_DIR}/src)
+
+set(TEMPLATE_HPP_INCLUDE_DIRS ${INCLUDE_DIRS} PARENT_SCOPE)
+
